@@ -66,7 +66,9 @@
     background-image: url("./image/image/footer-bg.png"),
         linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0, 9));
     background-blend-mode: overlay;
-    margin-left: 10px;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
 }
 .author-details{
     display: flex;
@@ -111,5 +113,59 @@
     background-color: red;  
 }
 .text-decp{
-    margin-right: 550px;
+    margin-right: auto;
+}
+.service{
+    padding: 10px;
+    background-color: white;
+    box-shadow: 4px 4px 8px gray;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    margin: 7px;
+}
+.service-logo{
+    width: 50%;
+    padding-bottom: 10px;
+}
+.service-up{
+    display: flex;
+}
+.service-down{
+    display: flex;
+}
+.left-container{
+    width: 50%;
+    height: 20px;
+}
+.phone-calls{
+    display: flex;
+}
+.call-icon{
+    width: 90px;
+}
+.appointment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    background-color: red;
+    padding: 10px;
+    color: white;
+    margin: auto;
+    border-radius: 25px;
+    margin-top: -35px;
+}
+.lorem{
+    width: 50%;
+    margin-left: 80px;
+}
+.btn-last{
+    height: 50px;
+    width: 100px;
+    padding: 8px;
+    border-radius: 20px;
+    margin-right: 20px;
 }
